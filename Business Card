@@ -1,0 +1,92 @@
+// HTML
+<div class="namecard">
+  
+  <div class="name_main">Eason Chen
+    <span class="name_subordinate">陳奕肇</span>
+  </div>  
+  
+  <div class="title">Software Engineer</div>
+  
+  <hr> 
+  <div class="paragraph"> Gonna apply a Master's Degree in Computer Science.<br>This is a test to make a namecard using HTML & CSS.
+  </div>
+  <div class="circle circle1"></div>
+  <div class="circle circle2"></div>
+  
+</div>
+
+
+// CSS
+*{
+/*   border: solid 1px; */
+  font-family: 微軟正黑體;
+  position: relative;
+}
+html,body{
+  width: 100%; height: 100%;
+  padding: 0px; margin: 0px;
+}
+
+body{
+  background-color: #543729;
+  border-top: solid 20px #C32F27;
+  border-bottom: solid 20px #C32F27;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.namecard{   /*設定namecard格式*/
+  width: 350px; height: 200px; /*Size of the namecard*/
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 230px;
+  background-color: #780116;
+  
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: #B58300;
+  overflow:hidden;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.name_main{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.name_subordinate{
+  font-size :13px;
+  font-weight: 700;
+}
+
+.title{
+  color: #C32F27;
+  font-weight: 50;
+}
+
+.namecard hr{border:solid 1px gray}
+
+.paragraph{
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.circle{
+  width: 100px; height: 100px;
+  border-radius: 100%; 
+  positon: absolute;
+}
+.circle1{
+  left: -60px;
+  bottom: -80px;
+  background-color: #F7B538
+}
+.circle2{
+  width: 100px; height: 40px;
+  left: 350px;
+  bottom: 50px;
+  border: solid 3px #F7B538
+}
